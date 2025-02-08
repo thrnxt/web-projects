@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.promo{
+    position: relative;
+    background: url("./img/background.svg") no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    align-items: center;
+    padding-bottom: 251px;
+}
+.promo__header{
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+}
+.promo__logo{
+    display: flex;
+    align-items:center
+}
+.promo__logo-title{
+    margin-left: 10px;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 30.47px;
+    color: #FFFFFF;
+}
+.promo__nav {
+    display: flex;
+    align-items: center;
+}
+.promo__nav ul{
+    align-items: center;
+    display: flex;
+}
+.promo__nav ul a{
+    margin: 0 27.5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #ffffff;
+}
+.promo__nav button{
+    align-items:center;
+    width: 140px;
+    height: 55px;
+    top: 40px;
+    left: 1165px;
+    border-width: 1px;
+    border-radius: 116px;
+    border: 1px solid #EDFF8166;
+    background-color:#ecff8112 ;
+    color: #FFFFFF;
+}
+.promo__main-content{
+    margin-top: 167px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.promo__title{
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffffffe0;
+}
+.promo__title h1{
+    color: #FFFFFF;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.promo__descr{
+    max-width: 755px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 25px;
+    color: #ffffff71;
+    text-align: center;
+}
+.promo__btn{
+    margin-top: 25px;
+    width: 243px;
+    height: 78px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFFFFF;
+    border-radius: 192px;
+    border: 1px;
+    background: linear-gradient(328.68deg, #64AA28 13.03%, #D6FF7E 120.61%);
+    box-shadow: 0px 34px 50px 0px #073F4312;
+}
+
+
+.svg-left,
+.svg-right {
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.svg-left {
+    left: 0;
+    bottom: 0;
+}
+.svg-right {
+    right: 0;
+    bottom:0;
+}
+/* content-services styles */
+
+.content-services{
+    padding: 72px 0 79px;
+}
+.content-services__title{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: center;
+}
+.content-services__cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+}
+.content-services__card{
+    display: flex;
+    max-width: 300px;
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-services__name{
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.content-services__descr{
+    display: block;
+    max-width: 230px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #78847D;
+}
+
+/* sponsors */
+
+.support-company{
+    padding: 52px 0px;
+    background: #2D483A;
+}
+.support-company__items{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer */
+.footer{
+    padding-top: 59px;
+}
+
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.footer__social-title{
+    color: #253D32;
+    display: flex;
+    align-items: center;
+}
+.footer__social-title span{
+    margin-left: 10px;
+    font-weight: 900;
+    font-size: 26px;
+}
+.footer__social-descr{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #78847D;
+    max-width: 350px;
+    margin-top: 28px;
+}
+.footer__social-logo ul{
+    display: flex;
+}
+.footer__social-logo li{
+    margin: 0 10px;
+    margin-top: 30px;
+}
+.footer__social-logo li:first-child{
+    margin: 30px 0;
+    margin-right: 10px;
+}
+
+.footer__nav-items{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin-left: 90px;
+}
+.footer__nav-item{
+    display: flex;
+    flex-direction: column;
+}
+.footer__nav-title{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #253D32;
+}
+.footer__nav-lists{
+    margin-top: 28px;
+}
+.footer__nav-list a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #78847D;
+}
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #78847D;
+    padding: 30px 0;
+}
